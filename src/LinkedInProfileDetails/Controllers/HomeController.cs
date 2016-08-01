@@ -27,6 +27,11 @@ namespace LinkedInProfileDetails.Controllers
             return View();
         }
 
+        public IActionResult Claims()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
